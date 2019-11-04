@@ -2,14 +2,15 @@
   "name": "test",
   "version": "1.0.1",
   "description": "Testing twitter",
-  "main": "angel-tweets-m50.herokuapp.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "twit": "^2.2.11"
   },
-  "devDependencies": {},
-  "author": "",
   "license": "ISC"
 }
