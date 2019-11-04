@@ -2,7 +2,7 @@ const express = require('express');
 const Twitter = require('twit');
 const app = express();
  
-app.listen(3000, () => console.log('Server running'))
+//app.listen(3000, () => console.log('Server running'))
 
 const api_client = new Twitter({
     consumer_key: 'NVzI1kGvJMO21P4TK82ogHuwj',
